@@ -155,9 +155,9 @@ function initChart() {
                 this.style.opacity = '1';
 
                 //Texto
-                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-                '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-                '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+                '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+                '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
                 
                 tooltip.html(html);
 
@@ -217,9 +217,9 @@ function initChart() {
                 this.style.opacity = '1';
 
                 //Texto
-                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-                '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-                '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+                '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+                '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
                 
                 tooltip.html(html);
 
@@ -279,9 +279,9 @@ function initChart() {
                 this.style.opacity = '1';
 
                 //Texto
-                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-                '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-                '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+                let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+                '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+                '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
                 
                 tooltip.html(html);
 
@@ -388,9 +388,9 @@ function animateChart() {
             this.style.opacity = '1';
 
             //Texto
-            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-            '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-            '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+            '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+            '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
             
             tooltip.html(html);
 
@@ -432,9 +432,9 @@ function animateChart() {
             this.style.opacity = '1';
 
             //Texto
-            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-            '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-            '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+            '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+            '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
             
             tooltip.html(html);
 
@@ -476,9 +476,9 @@ function animateChart() {
             this.style.opacity = '1';
 
             //Texto
-            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Media de esperanza de vida: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
-            '<p class="chart__tooltip--text">Mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
-            '<p class="chart__tooltip--text">Hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
+            let html = '<p class="chart__tooltip--title">' + d.Edad + ' ('+ d.Periodo +')</p>' + '<p class="chart__tooltip--text">Esperanza de vida para ambos sexos: ' + numberWithCommas(d.esperanza_total.replace('.',',')) + ' años</p>' +
+            '<p class="chart__tooltip--text">Para mujeres: ' + numberWithCommas(d.esperanza_mujer.replace('.',',')) + ' años</p>' + 
+            '<p class="chart__tooltip--text">Para hombres: ' + numberWithCommas(d.esperanza_hombre.replace('.',',')) + ' años</p>';
             
             tooltip.html(html);
 
