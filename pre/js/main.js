@@ -53,7 +53,7 @@ function initChart() {
         data_100 = data_100.reverse();
 
         //Desarrollo del gráfico > Debemos hacer muchas variables genéricas para luego actualizar el gráfico
-        let margin = {top: 5, right: 17.5, bottom: 20, left: 50};
+        let margin = {top: 5, right: 17.5, bottom: 20, left: 25};
         let width = parseInt(chartBlock.style('width')) - margin.left - margin.right,
             height = parseInt(chartBlock.style('height')) - margin.top - margin.bottom;
 
